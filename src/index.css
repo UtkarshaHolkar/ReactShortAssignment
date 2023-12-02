@@ -2,8 +2,27 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import 'animate.css/animate.min.css'; /* Import animate.css */
+@import 'animate.css/animate.min.css';
 
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, var(--gradient-color-stops));
+  --gradient-color-stops: #454748, #828d98, #7e858d, #18191b;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, var(--gradient-color-stops));
+  --gradient-color-stops: #4299e1, #3182ce, #2b6cb0, #2c5282;
+}
+
+.bg-gradient-to-b {
+  --gradient-color-stops: #4299e1, #3182ce, #2b6cb0, #2c5282;
+}
+
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, var(--gradient-color-stops));
+  --gradient-color-stops: #4299e1, #10171e, #182a3d, #16304f;
+}
 
 body {
   margin: 0;
